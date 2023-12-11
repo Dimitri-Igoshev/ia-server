@@ -13,6 +13,6 @@ export const newApplicationMail = (data: any) => ({
             <p>Тип услуги: ${data.type}</p> 
             <p>Услуга: ${data.service}</p> 
             <p>Описание: ${data.desc}</p> 
-            <p>Ссылка на файл: ${data.file}</p> 
+            <p>Ссылка на файл: https://api.igoshev.de/${data.file}</p> 
         `,
 });

@@ -23,7 +23,7 @@ export const newApplicationMail = (data: any) => (
       }</p>
               <p>Бюджет на разработку: ${data?.budget || '-'}</p>
               <p>Описание задания: ${data?.task || '-'}</p>
-              <p style="margin-bottom: 24px;"><a href="${data.file}" style="color: #3b82f6; text-decoration: none; font-weight: bold;">Ссылка на прикрепленный файл</a></p>
+              <p style="margin-bottom: 24px;"><a href="https://api.igoshev.de/${data.file}" style="color: #3b82f6; text-decoration: none; font-weight: bold;">Ссылка на прикрепленный файл</a></p>
               <p>Имя заказчика: ${data?.name || '-'}</p>
               <p>Телефон заказчика: ${data?.phone || '-'}</p>
               <p>Email заказчика: ${data?.email || '-'}</p>

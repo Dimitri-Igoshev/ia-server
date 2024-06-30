@@ -6,4 +6,8 @@ export class CreateApplicationDto {
   service: string;
   desc?: string;
   file?: string;
+  budget?: string;
+  message?: string;
+  task?: string;
+  locaton?: string;
 }

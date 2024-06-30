@@ -25,4 +25,16 @@ export class Application {
 
   @Column({ nullable: true })
   file: string;
+
+  @Column({ nullable: true  })
+  budget: string
+
+  @Column({ nullable: true  })
+  message: string;
+
+  @Column({ nullable: true  })
+  task: string;
+
+  @Column({ nullable: true   })
+  locaton: string;
 }

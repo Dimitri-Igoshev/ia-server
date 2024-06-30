@@ -24,7 +24,7 @@ export const requestReceivedMail = (
               <td style="padding: 24px 0 0;">
                   <p style="margin-bottom: 24px; color: #fff;">Мы получили вашу заявку!</p>
                   <p style="margin-bottom: 24px; color: #fff;">В самое ближайшее время мы свяжемся с вами чтобы обсудить детали.</p>
-                  <p style="margin-top: 24px; color: #fff;">Спасибо что выбрали нас,<br/>Команда IGOSHEV</p>
+                  <p style="margin-top: 24px; color: #fff;">Спасибо что выбрали нас.<br/>Команда IGOSHEV</p>
               </td>
           </tr>
       </table>

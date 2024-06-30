@@ -9,5 +9,5 @@ export class CreateApplicationDto {
   budget?: string;
   message?: string;
   task?: string;
-  locaton?: string;
+  lang?: string;
 }

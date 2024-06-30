@@ -5,6 +5,7 @@ import { Application } from './entities/application.entity';
 import { Repository } from 'typeorm';
 import { newApplicationMail } from 'src/mail/templates/new-application';
 import { MailService } from 'src/mail/mail.service';
+import { requestReceivedMail } from 'src/mail/templates/request-received';
 
 @Injectable()
 export class ApplicationService {
@@ -20,6 +21,7 @@ export class ApplicationService {
     const res = await this.applicationsRepository.save(application);
 
     await this.mailService.send(newApplicationMail(createApplicationDto));
+    await this.mailService.send(requestReceivedMail(createApplicationDto));
 
     return res;
   }

@@ -36,5 +36,5 @@ export class Application {
   task: string;
 
   @Column({ nullable: true   })
-  locaton: string;
+  lang: string;
 }

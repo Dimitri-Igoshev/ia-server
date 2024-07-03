@@ -7,6 +7,8 @@ export const requestReceivedMail = (
         to: data.email,
         from: process.env.EMAIL_FROM, subject: 'Заявка получена',
         html: `
+        <meta name="color-scheme" content="dark">
+        <meta name="supported-color-schemes" content="dark">
         <table role="presentation" width="100%" height="100%" cellspacing="0" cellpadding="0" border="0" style="padding: 24px;" >
           <tr>
               <td style="padding: 24px; background-color: #22c55e; color: #fff; border-radius: 16px;">

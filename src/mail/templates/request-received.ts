@@ -7,7 +7,7 @@ export const requestReceivedMail = (
         to: data.email,
         from: process.env.EMAIL_FROM, subject: 'Заявка получена',
         html: `
-        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #374151; border-radius: 0px; padding: 0px;">
+        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #374151; border-radius: 20px; padding: 24px;">
           <tr>
               <td style="padding: 24px; background-color: #22c55e; color: #fff; border-radius: 16px;">
                   <table role="presentation" cellspacing="0" cellpadding="0" border="0">
@@ -35,7 +35,7 @@ export const requestReceivedMail = (
         to: data.email,
         from: process.env.EMAIL_FROM, subject: 'Anfrage eingegangen',
         html: `
-      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #374151; border-radius: 0px; padding: 0px;">
+      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #374151; border-radius: 20px; padding: 24px;">
         <tr>
             <td style="padding: 24px; background-color: #22c55e; color: #fff; border-radius: 16px;">
                 <table role="presentation" cellspacing="0" cellpadding="0" border="0">
@@ -63,7 +63,7 @@ export const requestReceivedMail = (
         to: data.email,
         from: process.env.EMAIL_FROM, subject: 'The request has been received',
         html: `
-        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #374151; border-radius: 0px; padding: 0px;">
+        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #374151; border-radius: 20px; padding: 24px;">
           <tr>
               <td style="padding: 24px; background-color: #22c55e; color: #fff; border-radius: 16px;">
                   <table role="presentation" cellspacing="0" cellpadding="0" border="0">

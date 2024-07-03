@@ -21,7 +21,7 @@ export const requestReceivedMail = (
               </td>
           </tr>
           <tr>
-              <td style="padding: 24px 0 0;">
+              <td style="padding: 30px 0 0;">
                   <p style="margin-bottom: 24px; color: #000;">Мы получили вашу заявку!</p>
                   <p style="margin-bottom: 24px; color: #000;">В самое ближайшее время мы свяжемся с вами, чтобы обсудить детали.</p>
                   <p style="margin-top: 24px; color: #000;">Спасибо, что выбрали нас.<br/>Команда IGOSHEV</p>
@@ -49,7 +49,7 @@ export const requestReceivedMail = (
             </td>
         </tr>
         <tr>
-            <td style="padding: 24px 0 0;">
+            <td style="padding: 30px 0 0;">
                 <p style="margin-bottom: 24px; color: #000;">Wir haben Ihre Anfrage erhalten!</p>
                 <p style="margin-bottom: 24px; color: #000;">Wir werden uns bald mit Ihnen in Verbindung setzen, um die Details zu besprechen.</p>
                 <p style="margin-top: 24px; color: #000;">Danke, dass Sie uns gewählt haben.<br/>IGOSHEV Team</p>
@@ -77,7 +77,7 @@ export const requestReceivedMail = (
               </td>
           </tr>
           <tr>
-              <td style="padding: 24px 0 0;">
+              <td style="padding: 30px 0 0;">
                   <p style="margin-bottom: 24px; color: #000;">We have received your request!</p>
                   <p style="margin-bottom: 24px; color: #000;">We will contact you as soon as possible to discuss the details.</p>
                   <p style="margin-top: 24px; color: #000;">Thank you for choosing us.<br/>The IGOSHEV team</p>

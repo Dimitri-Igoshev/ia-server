@@ -7,7 +7,7 @@ export const requestReceivedMail = (
         to: data.email,
         from: process.env.EMAIL_FROM, subject: 'Заявка получена',
         html: `
-        <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0" style="padding: 24px;" >
+        <table role="presentation" width="100%" height="100%" cellspacing="0" cellpadding="0" border="0" style="padding: 24px;" >
           <tr>
               <td style="padding: 24px; background-color: #22c55e; color: #fff; border-radius: 16px;">
                   <table role="presentation" cellspacing="0" cellpadding="0" border="0">
@@ -35,7 +35,7 @@ export const requestReceivedMail = (
         to: data.email,
         from: process.env.EMAIL_FROM, subject: 'Anfrage eingegangen',
         html: `
-      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #374151; border-radius: 20px; padding: 24px;">
+      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="padding: 24px;">
         <tr>
             <td style="padding: 24px; background-color: #22c55e; color: #fff; border-radius: 16px;">
                 <table role="presentation" cellspacing="0" cellpadding="0" border="0">
@@ -50,9 +50,9 @@ export const requestReceivedMail = (
         </tr>
         <tr>
             <td style="padding: 24px 0 0;">
-                <p style="margin-bottom: 24px; color: #fff;">Wir haben Ihre Anfrage erhalten!</p>
-                <p style="margin-bottom: 24px; color: #fff;">Wir werden uns bald mit Ihnen in Verbindung setzen, um die Details zu besprechen.</p>
-                <p style="margin-top: 24px; color: #fff;">Danke, dass Sie uns gewählt haben.<br/>IGOSHEV Team</p>
+                <p style="margin-bottom: 24px; color: #000;">Wir haben Ihre Anfrage erhalten!</p>
+                <p style="margin-bottom: 24px; color: #000;">Wir werden uns bald mit Ihnen in Verbindung setzen, um die Details zu besprechen.</p>
+                <p style="margin-top: 24px; color: #000;">Danke, dass Sie uns gewählt haben.<br/>IGOSHEV Team</p>
             </td>
         </tr>
     </table>
@@ -63,7 +63,7 @@ export const requestReceivedMail = (
         to: data.email,
         from: process.env.EMAIL_FROM, subject: 'The request has been received',
         html: `
-        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #374151; border-radius: 20px; padding: 24px;">
+        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="padding: 24px;">
           <tr>
               <td style="padding: 24px; background-color: #22c55e; color: #fff; border-radius: 16px;">
                   <table role="presentation" cellspacing="0" cellpadding="0" border="0">
@@ -78,9 +78,9 @@ export const requestReceivedMail = (
           </tr>
           <tr>
               <td style="padding: 24px 0 0;">
-                  <p style="margin-bottom: 24px; color: #fff;">We have received your request!</p>
-                  <p style="margin-bottom: 24px; color: #fff;">We will contact you as soon as possible to discuss the details.</p>
-                  <p style="margin-top: 24px; color: #fff;">Thank you for choosing us.<br/>The IGOSHEV team</p>
+                  <p style="margin-bottom: 24px; color: #000;">We have received your request!</p>
+                  <p style="margin-bottom: 24px; color: #000;">We will contact you as soon as possible to discuss the details.</p>
+                  <p style="margin-top: 24px; color: #000;">Thank you for choosing us.<br/>The IGOSHEV team</p>
               </td>
           </tr>
       </table>

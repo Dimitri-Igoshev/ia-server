@@ -7,7 +7,7 @@ export const requestReceivedMail = (
         to: data.email,
         from: process.env.EMAIL_FROM, subject: 'Заявка получена',
         html: `
-        <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0" style="background: none;" >
+        <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0" style="padding: 24px;" >
           <tr>
               <td style="padding: 24px; background-color: #22c55e; color: #fff; border-radius: 16px;">
                   <table role="presentation" cellspacing="0" cellpadding="0" border="0">

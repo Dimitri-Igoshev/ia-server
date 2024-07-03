@@ -7,7 +7,7 @@ export const requestReceivedMail = (
         to: data.email,
         from: process.env.EMAIL_FROM, subject: 'Заявка получена',
         html: `
-        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style:background:rgba(245,86,26,0) >
+        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #374151; padding: 24px; margin: 0px" >
           <tr>
               <td style="padding: 24px; background-color: #22c55e; color: #fff; border-radius: 16px;">
                   <table role="presentation" cellspacing="0" cellpadding="0" border="0">
@@ -22,8 +22,8 @@ export const requestReceivedMail = (
           </tr>
           <tr>
               <td style="padding: 24px 0 0;">
-                  <p style="margin-bottom: 24px; ">Мы получили вашу заявку!</p>
-                  <p style="margin-bottom: 24px; ">В самое ближайшее время мы свяжемся с вами, чтобы обсудить детали.</p>
+                  <p style="margin-bottom: 24px; color: #fff;">Мы получили вашу заявку!</p>
+                  <p style="margin-bottom: 24px; color: #fff;">В самое ближайшее время мы свяжемся с вами, чтобы обсудить детали.</p>
                   <p style="margin-top: 24px; #fff;">Спасибо, что выбрали нас.<br/>Команда IGOSHEV</p>
               </td>
           </tr>
